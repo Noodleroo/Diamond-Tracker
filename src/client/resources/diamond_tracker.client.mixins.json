@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.noodle.diamond_tracker.client.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "EnderChestScanMixin",
+    "ContainerButtonMixin",
+    "ScreenAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

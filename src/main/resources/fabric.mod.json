@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "diamond_tracker",
+  "version": "${version}",
+  "name": "Diamond Tracker",
+  "description": "",
+  "authors": ["Noodleroo"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/diamond_tracker/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "net.noodle.diamond_tracker.client.Diamond_trackerDataGenerator"
+    ],
+    "client": [
+      "net.noodle.diamond_tracker.client.Diamond_trackerClient"
+    ],
+    "main": [
+      "net.noodle.diamond_tracker.Diamond_tracker"
+    ]
+  },
+  "mixins": [
+    "diamond_tracker.mixins.json",
+    {
+      "config": "diamond_tracker.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
