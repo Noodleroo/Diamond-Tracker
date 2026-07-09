@@ -11,3 +11,8 @@ A client-side Fabric mod designed to dynamically track your diamond counts acros
 ## Developer Info
 * Built for Minecraft 26.2
 * Uses Fabric Loader & Fabric API
+
+***
+
+### 26.2 0.0.1-TEST Download
+
