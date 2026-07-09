@@ -14,5 +14,5 @@ A client-side Fabric mod designed to dynamically track your diamond counts acros
 
 ***
 
-### 26.2 0.0.1-TEST Download
+### [26.2 0.0.1-TEST Download] (https://github.com/Noodleroo/Diamond-Tracker/blob/main/DiamondTracker-0.0.1-SNAPSHOT.jar)
 
