@@ -9,5 +9,5 @@ A client-side Fabric mod designed to dynamically track your diamond counts acros
 * **Client Command:** Type `/diamondtracker reset` to wipe your data and start fresh.
 
 ## Developer Info
-* Built for Minecraft 1.21.4+
+* Built for Minecraft 26.2
 * Uses Fabric Loader & Fabric API
