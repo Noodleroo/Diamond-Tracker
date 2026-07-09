@@ -3,10 +3,10 @@
   "id": "diamond_tracker",
   "version": "${version}",
   "name": "Diamond Tracker",
-  "description": "",
+  "description": "Diamond Tracker Mod\n\nA client-side Fabric mod designed to dynamically track your diamond counts across your inventory, Ender Chest, and local world containers!\n\n Features\nInventory Tracking: Automatically scans your pocket inventory in real-time.\nEnder Chest Sync:Dynamically caches your Ender Chest total when opened.\nMisc Chest Toggles: Click the `◆` button next to any chest UI to permanently log its diamonds into a global miscellaneous pool (changes to `✔`). Toggles off seamlessly!\nClient Command: Type `/diamondtracker reset` to wipe your data and start fresh.\n\n Developer Info\n Built for Minecraft 26.2\n Uses Fabric Loader & Fabric API",
   "authors": ["Noodleroo"],
   "contact": {},
-  "license": "All-Rights-Reserved",
+  "license": "MIT",
   "icon": "assets/diamond_tracker/icon.png",
   "environment": "client",
   "entrypoints": {
